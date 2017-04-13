@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <group android:checkableBehavior="single"
+           android:id="@+id/nav_parichay1">
+        <item
+            android:id="@+id/nav_parichay"
+            android:icon="@drawable/parichay"
+            android:title="@string/parichay" />
+    </group>
+    <group android:checkableBehavior="single"
+           android:id="@+id/nav_news1">
+        <item
+            android:id="@+id/nav_news"
+            android:icon="@drawable/news"
+            android:title="@string/news" />
+    </group>
+    <group android:checkableBehavior="single"
+           android:id="@+id/nav_media1">
+        <item
+            android:id="@+id/nav_media"
+            android:icon="@drawable/media"
+            android:title="@string/media" />
+    </group>
+    <group android:checkableBehavior="single"
+           android:id="@+id/nav_ebooks1">
+        <item
+            android:id="@+id/nav_ebooks"
+            android:icon="@drawable/ebooks"
+            android:title="@string/ebooks" />
+    </group>
+    <group android:checkableBehavior="single"
+           android:id="@+id/nav_location1">
+        <item
+            android:id="@+id/nav_location"
+            android:icon="@drawable/location"
+            android:title="@string/location" />
+    </group>
+    <group android:checkableBehavior="single"
+           android:id="@+id/nav_gallery1">
+        <item
+            android:id="@+id/nav_gallery"
+            android:icon="@drawable/gallery"
+            android:title="@string/gallery" />
+    </group>
+    <group android:checkableBehavior="single"
+           android:id="@+id/nav_invite1">
+        <item
+            android:id="@+id/nav_invite"
+            android:icon="@drawable/invitefrnd"
+            android:title="@string/invite" />
+    </group>
+
+    <group android:checkableBehavior="single"
+           android:id="@+id/nav_events1">
+        <item
+            android:id="@+id/nav_events"
+            android:icon="@drawable/calender"
+            android:title="@string/events" />
+    </group>
+
+    <group android:checkableBehavior="single"
+           android:id="@+id/nav_organization1">
+        <item
+            android:id="@+id/nav_organization"
+            android:icon="@drawable/organization"
+            android:title="@string/organization" />
+    </group>
+    <group android:checkableBehavior="single"
+           android:id="@+id/nav_about1">
+        <item
+            android:id="@+id/nav_about"
+            android:icon="@drawable/about"
+            android:title="@string/about" />
+    </group>
+
+
+</menu>

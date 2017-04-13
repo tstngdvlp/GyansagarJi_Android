@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<LinearLayout
+    android:id="@+id/eventLL"
+    android:layout_width="match_parent"
+    android:layout_height="90dp"
+    >
+<LinearLayout
+    android:layout_width="90sp"
+    android:layout_height="match_parent"
+    android:layout_marginLeft="10dp"
+    android:layout_gravity="center"
+    android:gravity="center">
+
+    <com.gyansagarji.android.utils.CircularNetworkImageView2
+        android:id="@+id/eventIMGV"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_gravity="center"/>
+</LinearLayout>
+    <LinearLayout
+        android:id="@+id/clickLL"
+        android:orientation="vertical"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+        <LinearLayout
+            android:layout_weight="1.2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            >
+            <TextView
+                android:id="@+id/titleTV"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center|left"
+                android:gravity="center|left"
+                android:text="Event Title"
+                android:maxLines="1"
+                android:ellipsize="end"
+                android:textSize="@dimen/eventtitle"
+                android:textColor="@color/listitems"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_weight="1.4"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView
+                android:id="@+id/descTV"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center|left"
+                android:gravity="center|left"
+                android:text="Lorem Ipsum is simply dummy text of the printing and typesetting industry."
+                android:maxLines="1"
+                android:ellipsize="end"
+                android:textSize="@dimen/eventsubtitle"
+                android:textColor="@color/black"/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_weight="1.1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <LinearLayout
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <TextView
+                    android:id="@+id/dateTV"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center|left"
+                    android:gravity="center|left"
+                    android:text="10/10/2016"
+                    android:maxLines="1"
+                    android:ellipsize="end"
+                    android:textSize="@dimen/eventsubtitle"
+                    android:textColor="@color/listitems"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <TextView
+                    android:id="@+id/timeTV"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center|left"
+                    android:gravity="center|left"
+                    android:text="7:50 PM"
+                    android:maxLines="1"
+                    android:ellipsize="end"
+                    android:textSize="@dimen/eventsubtitle"
+                    android:textColor="@color/listitems"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_weight="0.8"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center|right"
+                android:gravity="center|right">
+                <TextView
+                    android:id="@+id/reminder_btnTV"
+                    android:layout_width="100dp"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/reminderbutton"
+                    android:text="Set Reminder"
+                    android:textSize="@dimen/eventsubtitle"
+                    android:layout_margin="5dp"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:textColor="@color/white"
+                    />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>
+</LinearLayout>

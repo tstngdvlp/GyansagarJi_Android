@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">Gyansagar Ji</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="action_settings">Settings</string>
+    <string name="parichay">Jeevan Parichay</string>
+    <string name="news">News</string>
+    <string name="ebooks">Ebooks</string>
+    <string name="media">Media</string>
+    <string name="location">Location</string>
+    <string name="gallery">Gallery</string>
+    <string name="invite">Invite Friend</string>
+    <string name="events">Events</string>
+    <string name="organization">Organization</string>
+    <string name="about">About Us</string>
+    <string name="title_activity_ebooks">EbooksActivity</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string name="email">Email Us : \n gyansagaryuvasangh@gmail.com </string>
+    <string name="facebook_app_id">176320352860281</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="locationname">Bada Jain Mandir,Morena,M.P</string>
+    <string name="dummytext">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</string>
+    <string name="share">Share</string>
+
+    <string name="rateus">Do you like this app?\nPlease rate it in the PlayStore</string>
+
+
+    <string name="error_player">There was an error initializing the YouTubePlayer (%1$s)</string>
+    <string name="networkerror">Check your Internet connection</string>
+
+</resources>

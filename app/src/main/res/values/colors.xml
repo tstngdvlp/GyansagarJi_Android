@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#fe6700</color>
+    <color name="colorPrimaryDark">#fe6700</color>
+    <color name="colorAccent">#ffffff</color>
+    <color name="viewcolor">#c9c7c5</color>
+    <color name="black">#000000</color>
+    <color name="transparent">#00000000</color>
+    <color name="white">#ffffff</color>
+    <color name="blue">#0e7ae7</color>
+    <color name="search">#9f9e9d</color>
+    <color name="backgroud">#dfdedd</color>
+    <color name="tabcolor">#f00</color>
+
+    <!--EbooksActivity-->
+    <color name="searchiconbg">#fc8100</color>
+    <color name="pagebg">#f5f5f5</color>
+    <color name="searchicon">#f3e0cd</color>
+    <color name="listitems">#fe6700</color>
+    <color name="viewbg">#f9c29f</color>
+    <color name="searchtext">#cccacb</color>
+    <color name="listdivider">#f5c8aa</color>
+    <!--EventsActivity-->
+    <color name="eventrowbg">#fe8301</color>
+    <color name="eventtitle">#edeff0</color>
+    <color name="subtitle">#eae3dc</color>
+    <color name="eventtime">#edf5fe</color>
+    <color name="eventdate">#efeae5</color>
+    <color name="reminderbg">#fe6700</color>
+    <color name="reminderbuttontext">#fee3d1</color>
+    <color name="trans">#64000000</color>
+
+    <!--MediaActivity-->
+    <color name="tabselected">#fe8301</color>
+    <color name="tabunseleted">#f8be7f</color>
+    <color name="mediaviewbg">#cecccd</color>
+    <color name="textgray">#434141</color>
+
+</resources>

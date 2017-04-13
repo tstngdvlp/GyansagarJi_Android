@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:id="@+id/imageRL"
+        android:layout_width="150dp"
+        android:layout_height="150dp">
+
+        <com.android.volley.toolbox.NetworkImageView
+            android:id="@+id/grid_item_image"
+            android:layout_width="match_parent"
+            android:scaleType="fitXY"
+            android:layout_height="match_parent"/>
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/galleryimag_bg"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="25dp"
+            android:layout_alignParentBottom="true"
+            android:background="@color/trans">
+        <TextView
+            android:id="@+id/imgnameTV"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textColor="@color/white"
+            android:maxLines="1"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:textSize="12dp"
+            android:ellipsize="end"/>
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</LinearLayout>
